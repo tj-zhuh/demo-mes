@@ -1,0 +1,77 @@
+﻿
+
+/*表格容器*/
+
+
+/*.container .topbar{
+    height:0.5rem;
+}*/
+
+ul.bar-content{
+    margin-top:0.1rem;
+    height:0.18rem;
+}
+
+.tb-edit{margin-left:39%;}
+.tb-delete{margin-left:10%;}
+
+
+.legend{
+    float:left;
+    width:0.8rem;
+    height:0.3rem;
+    margin-right:0.1rem;
+}
+
+ul.legend-ul{
+    clear:both;
+    margin-top:0.3rem;
+    margin-left:0.4rem;
+}
+
+ul.legend-ul li{
+    float:left;
+    margin-left:0.4rem;
+}
+
+
+ul.bottom-right-ul li{
+    float:left;
+}
+
+ul.bottom-right-ul li input{
+    width:50px;
+}
+
+ul.bottom-right-ul li select{
+    width:50px;
+}
+
+.doQuery{
+    background-image:url(../../../../images/btn-query.png);
+}
+
+.doQuery:hover{    
+    background-image:url(../../../../images/btn-query-hover.png);
+}
+
+.doQuery:active{
+    background-image:url(../../../../images/btn-query-active.png);
+}
+
+
+/*#grid1{
+    height:3rem;
+}*/
+
+#chart1{
+    height:4rem;
+}
+
+.btn {
+    margin-left: 0.1rem;
+}
+
+.panel {
+    height: 6.9rem;
+}

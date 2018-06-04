@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>BOM清单查询</title>
+    <link href="../../../../css/style2.css" rel="stylesheet" />
+    <link href="../../../../lib/tb/tbcss.css" rel="stylesheet" />
+    <link href="page2.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <div class="panel-title"><p>BOM清单查询</p></div>
+            <div class="topbar">
+                <ul class="query-conditions">
+                    <li>
+                        <label>列&#12288;&#12288;表</label><select id="BOM">
+                            <option>上箱体</option>
+                            <option>下箱体</option>
+                            <option>六角薄螺母</option>
+                        </select>
+                    </li>
+                    <li><label>编&#12288;&#12288;码</label><input value="1024201002687" disabled="disabled" /></li>
+                    <li><label>名&#12288;&#12288;称</label><input id="bomName" value="上箱体" disabled="disabled" /></li>
+                    <li><label>规&#12288;&#12288;格</label><input value="" disabled="disabled" /></li>
+                    <li><label>材&#12288;&#12288;质</label><input value="组件装配图" disabled="disabled" /></li>
+                    <li><label>分制令号</label><input value="14-2604-001-1043" disabled="disabled" /></li>
+                </ul>
+                <ul class="query-conditions">
+                    <li><label>图&#12288;&#12288;号</label><input value="BS-300F-04-12-12-03" disabled="disabled" /></li>
+
+                    <li><label>数&#12288;&#12288;量</label><input value="1.00" disabled="disabled" /></li>
+                    <li><label>单&#12288;&#12288;重</label><input value="1.00" disabled="disabled" /></li>
+                    <li><label>版&#12288;&#12288;本</label><input value="1" disabled="disabled" /></li>
+                    <li><label>视&#12288;&#12288;图</label><input value="1" disabled="disabled" /></li>
+                    <li><label>计件单位</label><input value="件" disabled="disabled" /></li>
+                </ul>
+                <ul class="query-conditions">
+                    <li><label>净&#12288;&#12288;重</label><input value="0.000" disabled="disabled" /></li>
+                    <li><label>毛&#12288;&#12288;坯</label><input value="0.000" disabled="disabled" /></li>
+
+                    <li><label>计重单位</label><input value="公斤" disabled="disabled" /></li>
+                    <li><label>探伤等级</label><input value="" disabled="disabled" /></li>
+                    <li><label>锻件标识</label><input value="有" disabled="disabled" /></li>
+                </ul>
+                <ul class="query-buttons">
+                    <li><div class="btn">浏览</div></li>
+                    <li><div class="btn">导出</div></li>
+                    <li><div class="btn">返回</div></li>
+                </ul>
+            </div>
+
+            <div class="grid-container" id="grid1">
+            </div>
+
+            <!--注意现在还暂时不做翻页，预留位置-->
+            <div class="pagin"></div>
+        </div>
+    </div>
+    <script src="../../../../js/rem.js"></script>
+
+    <script src="../../../../js/config.js"></script>
+    <script src="../../../../js/require-2.1.11.js" data-main="page"></script>
+</body>
+</html>

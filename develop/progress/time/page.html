@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>生产报工</title>
+    <link href="../../../css/style2.css" rel="stylesheet" />
+    <!--<link href="../../../../css/zbcStyle.css" rel="stylesheet" />-->
+    <link href="../../../../lib/tb/tbcss.css" rel="stylesheet" />
+    <link href="page2.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!--<h1>用户管理</h1>-->
+    <div class="container">
+        <div class="panel">
+            <div class="panel-title"><p>生产报工</p></div>
+            <div class="topbar">
+
+                <ul class="query-conditions sp0_3" id="ul1">
+                    <li><label>客户订单号</label><input /></li>
+                    <li><label>工单单号</label><input /></li>
+                    <li><label>单据日期</label><input /></li>
+                    <li><label>加工顺序</label><input /></li>
+                    <li><label>单据号码</label><input /></li>
+                    <li><label class="">工序</label><select id="select1"></select></li>
+                    <li><label>生产单位</label><select id="select3" style=""></select></li>
+                </ul>
+                <ul class="query-conditions sp0_3">
+                    <li style="clear:left;"><label>不良品数量</label><input /></li>
+
+                    <li><label>标准工时</label><input /></li>
+                    <li><label>规格型号</label><input /></li>
+                    <li><label>良品数量</label><input /></li>
+                    <li><label>实际工时</label><input /></li>
+                    <li><label class="">产品</label><select id="select2"></select></li>
+                </ul>
+                <ul class="query-buttons">                    
+                    <li style="float:right;margin-right:0.5rem;"><div class="btn">查询</div></li>
+                </ul>
+             
+            </div>
+
+            <div class="grid-container" id="grid1">
+
+            </div>
+
+            <!--注意现在还暂时不做翻页，预留位置-->
+            <div class="pagin"></div>
+            <ul class="bottom-conditions">
+                <li><label>报工人员</label><select id="select4"></select></li>
+                <li><label>制单人员</label><select id="select5"></select></li>
+                <li><label>所属部门</label><input /></li>
+                <li><label>复核人员</label><input /></li>
+                <!--<li class="withTwoTimeInput"><label>签订日期</label><input />&nbsp;-&nbsp;<input /></li>-->
+
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="../../../js/rem.js"></script>
+
+    <script src="../../../../js/config.js"></script>
+    <script src="../../../../js/require-2.1.11.js" data-main="page"></script>
+</body>
+</html>

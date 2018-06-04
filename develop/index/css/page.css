@@ -1,0 +1,135 @@
+﻿
+body, html {
+    height: 100%;
+    background-color: #0B2035; 
+}
+
+.container {
+    overflow: hidden;
+    min-height: 100%;
+    min-width: 1280px; 
+}
+
+.ui {
+    margin-top:0.14rem;
+    margin-left: 1.9rem;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    background-color: #0B2035;
+}
+
+.ui.hide-left {
+    margin-left: 0;
+}
+
+iframe {
+}
+
+.header {
+   
+}  
+
+
+
+
+
+.toolbar {
+    position: fixed;
+    right: 0.1rem;
+    top: 0.3rem;
+    width: 0.5rem;
+    z-index: 1;
+}
+
+.toolbar-btn {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #183b54;
+    border: 1px solid #42637b;
+    margin-top: 0.1rem;
+    position: relative;
+    cursor: pointer; 
+}
+
+.toolbar-btn:hover {
+    /*background-color: #e7e7e7;*/
+    /*border-color: #bbb;*/
+}
+
+.toolbar-btn cite {
+    width: 0.26rem;
+    height: 0.25rem;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.12rem;
+    margin-left: -0.12rem;
+    background-size: 100% 100%;
+}
+
+.toolbar-btn:hover cite {
+    display: none;
+}
+
+.toolbar-btn span {
+    display: none;
+    font-size: 0.15rem;
+    color: #fff;
+    font-family:SimSun;
+    text-align: center;
+    margin-top: 0.15rem;
+}
+
+.toolbar-btn:hover span {
+    display: block;
+}
+
+.toolbar.collapsed .toolbar-btn {
+    display: none;
+}
+
+.toolbar.collapsed .toolbar-btn-menu {
+    display: block;
+}
+
+.toolbar-btn-add cite {
+    background-image: url(../images/tool-add.png);
+}
+
+.toolbar-btn-check cite {
+    background-image: url(../images/tool-check.png);
+}
+
+.toolbar-btn-del cite {
+    background-image: url(../images/tool-del.png);
+}
+
+.toolbar-btn-export cite {
+    background-image: url(../images/tool-export.png);
+}
+
+.toolbar-btn-favor cite {
+    background-image: url(../images/tool-favor.png);
+}
+
+.toolbar-btn-menu cite {
+    background-image: url(../images/tool-menu.png);
+}
+
+.toolbar-btn-print cite {
+    background-image: url(../images/tool-print.png);
+}
+
+.toolbar-btn-publish cite {
+    background-image: url(../images/tool-publish.png);
+}
+
+.toolbar-btn-query cite {
+    background-image: url(../images/tool-query.png);
+}
+
+.toolbar-btn-save cite {
+    background-image: url(../images/tool-save.png);
+}

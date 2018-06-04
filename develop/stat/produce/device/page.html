@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>设备生产统计分析</title>
+
+    <link href="../../../../css/style2.css" rel="stylesheet" />
+    <!--<link href="../../../../css/zbcStyle.css" rel="stylesheet" />-->
+    <link href="../../../../lib/tb/tbcss.css" rel="stylesheet" />
+    <link href="page2.css" rel="stylesheet" />
+	
+</head>
+<body>
+    <!--<h1>用户管理</h1>-->
+    <div class="container">
+        <div class="panel" id="panel1">
+            <div class="panel-title"><p>设备生产统计分析</p></div>
+            <div class="topbar">
+                <ul class="query-conditions">
+                    <li><label>设备编号</label><input /></li>
+                    <li><label>设备名称</label><select id="select1"></select></li>
+                </ul>
+                <ul class="query-buttons">
+                    <li><div class="btn">查询</div></li>
+                </ul>
+            </div>
+
+            <div class="grid-container" id="grid1">
+                <table>
+                    <tr id="tr1"><th colspan="2">日期</th></tr>
+                    <tr id="tr2"><th colspan="2">总工作时间</th></tr>
+                    <tr id="tr3"><th rowspan="4">计划停止时间</th><th>点检保养</th></tr>
+                    <tr id="tr4"><th>工间休息</th></tr>
+                    <tr id="tr5"><th>计划维修</th></tr>
+                    <tr id="tr6"><th>停机调整</th></tr>
+                    <tr id="tr7"><th colspan="2">负荷时间</th></tr>
+                    <tr id="tr8"><th rowspan="4">计划停止时间</th><th>调整</th></tr>
+                    <tr id="tr9"><th>故障维修</th></tr>
+                    <tr id="tr10"><th>停工</th></tr>
+                    <tr id="tr11"><th>其他</th></tr>
+                    <tr id="tr12"><th colspan="2">运行时间</th></tr>
+                    <tr id="tr13"><th colspan="2">生产总数</th></tr>
+                    <tr id="tr14"><th colspan="2">不良品次</th></tr>
+                    <tr id="tr15"><th colspan="2">基准生产周期</th></tr>
+                    <tr id="tr16"><th colspan="2">实际生产周期</th></tr>
+                    <tr id="tr17"><th colspan="2">时间运行效率</th></tr>
+                    <tr id="tr18"><th colspan="2">速度运行效率</th></tr>
+                    <tr id="tr19"><th colspan="2">有效运行效率</th></tr>
+                    <tr id="tr20"><th colspan="2">性能运行效率</th></tr>
+                    <tr id="tr21"><th colspan="2">良品率</th></tr>
+
+
+
+
+
+                </table>
+            </div>
+            <p>&nbsp;&nbsp;注：所有时间单位均以（分钟）计算；生产周期（分/个）；效率为（%）</p>
+            <!--注意现在还暂时不做翻页，预留位置-->
+            <div class="pagin"></div>
+
+        </div>
+        </div>
+    
+
+
+    <script src="../../../../js/rem.js"></script>
+
+    <script src="../../../../js/config.js"></script>
+    <script src="../../../../js/require-2.1.11.js" data-main="page"></script>
+</body>
+</html>

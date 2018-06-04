@@ -1,0 +1,14 @@
+﻿ul.bar-content { }
+
+.panel { height: 7.5rem; }
+
+* ul { clear: both; }
+.tb-edit { margin-left: 30%; }
+.tb-delete { margin-left: 10%; }
+
+.blank-gray { clear: both; text-align: center; background-color: lightgray; width:97%; margin-left:0.25rem; font-family:'Microsoft YaHei'; }
+
+.multi-div { height: 5.6rem; width:97%; margin-left:0.25rem; }
+.multi-div .multi-div-1 { float: left; text-align: center; height: 100%; width: 10%; border: 1px solid #ccc; font-family:'Microsoft YaHei'; }
+.multi-div .multi-div-2 { float: left; text-align: center; height: 100%; width: 10%; border: 1px solid #ccc; font-family:'Microsoft YaHei'; }
+.multi-div .multi-div-3 { float: left; height: 100%; width: 79.5%; border: 1px solid #ccc; }

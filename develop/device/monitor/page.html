@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>库存物资统计分析</title>
+
+    <link href="../../../css/style2.css" rel="stylesheet" />
+    <!--<link href="../../../../css/zbcStyle.css" rel="stylesheet" />-->
+    <link href="../../../../lib/tb/tbcss.css" rel="stylesheet" />
+    <link href="page2.css" rel="stylesheet" />
+</head>
+<body>
+    <!--<h1>用户管理</h1>-->
+    <div class="container">
+
+        <div class="topbar">
+            <ul class="query-conditions">
+                <li><img src="../../../images/jichuang_green.png" /><label>待维修</label></li>
+                <li><img src="../../../images/jichuang_red.png" /><label>在维修</label></li>
+                <li><img src="../../../images/jichuang_yellow.png" /><label>待运行</label></li>
+            </ul>
+        </div>
+
+        <div class="chart-container" id="chart1">
+
+            <div class="kua" id="kua5">第五跨</div><div class="kua-content" id="kuaC5"></div>
+            <div class="kua" id="kua4">第四跨</div><div class="kua-content" id="kuaC4"></div>
+            <div class="kua" id="kua3">第三跨</div><div class="kua-content" id="kuaC3"></div>
+            <div class="kua" id="kua2">第二跨</div><div class="kua-content" id="kuaC2"></div>
+            <div class="kua" id="kua1">第一跨</div><div class="kua-content" id="kuaC1"></div>
+        </div>
+
+        <!--注意现在还暂时不做翻页，预留位置-->
+        <div class="pagin"></div>
+    </div>
+
+    <div id="dianjishijian" class="display">
+        <p>4134324235</p>
+        <p>武汉某某机床先创数控机床</p>
+        <p>加工信息：</p>
+        <p>代号：12873512533615238178</p>
+        <p>名称：水平技术上框架</p>
+        <p>C JKLAJ-7891798</p>
+        <p>台次：T1/6 - 1</p>
+        <p>工序号：71</p>
+        <p>工序描述：一般工程，复杂度低，需高温环境</p>
+        <p>开工时间：2017/1/1&nbsp;16:00</p>
+    </div>
+
+    <script src="../../../js/rem.js"></script>
+    <script src="../../../../js/config.js"></script>
+    <script src="../../../../js/require-2.1.11.js" data-main="page"></script>
+</body>
+</html>

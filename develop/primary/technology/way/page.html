@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>工艺路线管理</title>
+    <link href="../../../../css/style2.css" rel="stylesheet" />
+    <link href="../../../../lib/tb/tbcss.css" rel="stylesheet" />
+    <link href="page2.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <div class="panel-title"><p>工艺路线管理</p></div>
+            <div class="topbar">
+                <ul class="query-conditions">
+                    <li><label>名&#12288;&#12288;称</label><input /></li>
+                    <li><label>图&#12288;&#12288;号</label><input /></li>
+                    <li><label>制令号</label><input /></li>
+                    <li><label>物料编码</label><input /></li>
+                    <li><label>状&#12288;&#12288;态</label><select></select></li>
+                    <li><label>版&#12288;&#12288;本</label><select></select></li>
+                    <li><label>材&#12288;&#12288;质</label><select></select></li>
+                    <li><label>毛坯种类</label><select></select></li>
+                </ul>
+                <ul class="query-buttons">
+                    <li><div class="btn">审核</div></li>
+                    <li><div class="btn">驳回</div></li>
+                    <li><div class="btn">取消审核</div></li>
+                    <li><div class="btn">查询</div></li>
+                    <li><div class="btn">返回</div></li>
+                </ul>
+            </div>
+
+            <div class="grid-container" id="grid1">
+            </div>
+
+            <!--注意现在还暂时不做翻页，预留位置-->
+            <div class="pagin"></div>
+        </div>
+    </div>
+
+    <script src="../../../../js/rem.js"></script>
+    <script src="../../../../js/config.js"></script>
+    <script src="../../../../js/require-2.1.11.js" data-main="page"></script>
+</body>
+</html>

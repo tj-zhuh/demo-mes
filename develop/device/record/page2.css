@@ -1,0 +1,9 @@
+﻿.live-container { margin-top: 0.2rem; text-align: center; height: 5.50rem; width: 100%; border: 0px solid #ccc; }
+.live-container img { height: 5.50rem; clear: both;  }
+
+.panel { height:15rem; }
+
+.device-record-table1 { margin-top: 0.4rem; text-align: center; height: 8rem; width: 100%; border: 0px solid #ccc; }
+.device-record-table1 table { width:97%; margin-left:0.25rem; margin-top: 0.1rem; border: 1px solid #ccc; }
+.device-record-table1 table th { height: 0.45rem; width: 5rem; border: 1px solid #ccc; background-color:#fafafa;  }
+.device-record-table1 table td { height: 0.45rem; width: 5rem; border: 1px solid #ccc; }

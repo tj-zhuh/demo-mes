@@ -1,0 +1,6 @@
+﻿.multi-container { clear: both; height: 5.50rem; }
+
+.table-container { float: left; margin-left: 0.3rem; margin-top: 0rem; height: 5.50rem; width: 20%;  }
+
+.live-container { float: left; margin-left: 0.2rem; margin-top: 0rem; height: 5.50rem; width: 75%; border: 0px solid #ccc; }
+.live-container img { height: 5.50rem; clear: both; float: left; }

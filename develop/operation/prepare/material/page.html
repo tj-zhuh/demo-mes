@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>物料齐套检查</title>
+    <!--<link href="../../../../css/zbcStyle.css" rel="stylesheet" />-->
+    <link href="../../../../css/style2.css" rel="stylesheet" />
+    <link href="../../../../lib/tb/tbcss.css" rel="stylesheet" />
+    <link href="page2.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <div class="panel-title"><p>物料齐套检查</p></div>
+            <div class="topbar">
+                <ul class="query-conditions">
+                    <li><label>物料</label><input /></li>
+                    <li><label>图号</label><input /></li>
+                    <li><label>产品号</label><input /></li>
+                    <li><label>交货期</label><input /></li>
+                    <li><label>状态</label><select></select></li>
+                </ul>
+                <ul class="query-buttons">
+                    <li><div class="btn">查询</div></li>
+                    <li><div class="btn">取消</div></li>
+                </ul>
+                <ul class="legend-ul">
+                    <li><div class="legend red"></div><label>无库存</label></li>
+                </ul>
+            </div>
+
+            <div class="grid-container" id="grid1">
+            </div>
+
+            <!--注意现在还暂时不做翻页，预留位置-->
+            <div class="pagin"></div>
+        </div>
+    </div>
+
+    <script src="../../../../js/rem.js"></script>
+
+    <script src="../../../../js/config.js"></script>
+    <script src="../../../../js/require-2.1.11.js" data-main="page"></script>
+</body>
+</html>

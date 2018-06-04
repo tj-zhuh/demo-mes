@@ -1,0 +1,61 @@
+﻿
+
+.doQuery{
+    background-image:url(../../../../images/btn-query.png);
+}
+
+.doQuery:hover{    
+    background-image:url(../../../../images/btn-query-hover.png);
+}
+
+.doQuery:active{
+    background-image:url(../../../../images/btn-query-active.png);
+}
+
+.panel{
+    height:11.9rem;
+
+}
+
+input{width:1.7rem;}
+select{width:1.75rem;}
+
+ul.bottom-conditions{margin-top:0.2rem;clear:left;height:0.4rem;margin-left:0.4rem;margin-top:0.2rem;}
+ul.bottom-conditions li{float:left;}
+ul.bottom-conditions label{margin-left:0.1rem;margin-right:0.1rem;}
+ul.bottom-conditions > li{margin-right:0.5rem;}
+
+#chart1{
+    width:97%;
+    margin-left:0.25rem;
+    border:solid 1px #ccc;
+    height:3.2rem;
+}
+#chart2{
+    width:33%;
+    height:3.2rem;
+    margin-left:0.25rem;
+    float:left;
+    border:none;
+    border-right:solid 1px #ccc;
+    border-left:solid 1px #ccc;
+}
+#chart3{
+    width:63.7%;
+    height:3.2rem;
+    margin-left:0.032rem;
+    border:none;
+    border-left:solid 1px #ccc;
+    border-right:solid 1px #ccc;
+    float:left;
+}
+#grid1{
+    width:97%;
+    float:left;
+    margin-left:0.25rem;
+    border:solid 1px #ccc;
+}
+
+.container .topbar {
+    height: 0.8rem;
+}

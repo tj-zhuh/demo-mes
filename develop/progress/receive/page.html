@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>生产作业任务接收</title>
+    <link href="../../../css/style2.css" rel="stylesheet" />
+    <!--<link href="../../../../css/zbcStyle.css" rel="stylesheet" />-->
+    <link href="../../../../lib/tb/tbcss.css" rel="stylesheet" />
+    <link href="page2.css" rel="stylesheet" />
+</head>
+<body>
+    <!--<h1>用户管理</h1>-->
+    <div class="container">
+        <div class="panel">
+            <div class="panel-title"><p>生产作业任务接收</p></div>
+            <div class="topbar">
+                <!--<ul class="bar-content">
+                    <li><label>总制令号</label><input /></li>
+                    <li><label>客户名称</label><input /></li>
+                    <li class="withTwoTimeInput"><label>签订日期</label><input />&nbsp;-&nbsp;<input /></li>
+                    <li><label>发货情况</label><select></select></li>
+                    <li><label>拖期情况</label><select></select></li>
+                    <li class="withTwoTimeInput"><label>天数</label><input />&nbsp;-&nbsp;<input /></li>
+                   <li><label>回款情况</label><select></select></li>
+                    <li><div class="doQuery"></div></li>
+                </ul>-->
+                <ul class="query-conditions">
+                    <li><label>代号</label><input /></li>
+                    <li><label>我的任务</label><select id="select1"></select></li>
+                    <li><label>卡号</label><input /></li>
+                    <li style="clear:right;"><label>设备码</label><select id="select2"></select></li>
+                    <li class="withTwoTimeInput" style="margin-right:0;"><label>台次</label><input /></li>
+                </ul>
+                
+                <ul class="query-buttons">
+                    <li><div id="allSelect"></div><label style="line-height:0.3rem;">全选</label></li>
+                    <!--<li style=""><div id="allSelect"></div><label>全选</label></li>-->
+                    <li><div class="btn">打开明细</div></li>
+                    <li><div class="btn">工件查询</div></li>
+              
+                    <li style="margin-top: 0.03rem; margin-left: 13rem;"><select id="select3"></select></li>
+                    <li style="margin-left:0rem;"><div class="btn" style="">执行</div></li>
+                </ul>
+            </div>
+
+            <div class="grid-container" id="grid1">
+
+            </div>
+
+            <!--注意现在还暂时不做翻页，预留位置-->
+            <div class="pagin"></div>
+            <!--<ul class="bottom-btn">
+                <li><div class="btn">接受任务（F2）</div></li>
+                <li><div class="btn">开工（F3）</div></li>
+                <li><div class="btn">质检申请（F7）</div></li>
+                <li><div class="btn">维修管理</div></li>
+                <li><div class="btn">浏览图纸</div></li>
+                <li><div class="btn">考勤查询</div></li>
+                <li><div class="btn">工作内容查询</div></li>
+                <li><div class="btn">工序调整</div></li>
+                <li><div class="btn">油料申请</div></li>
+                <li><div class="btn">呼叫</div></li>
+                <li><div class="btn">停工（F4）</div></li>
+                <li><div class="btn">取消质检</div></li>
+                <li><div class="btn">交班（F9）</div></li>
+                <li><div class="btn">呼叫起重</div></li>
+                <li><div class="btn">划线完工</div></li>
+            </ul>-->
+        </div>
+    </div>
+
+
+
+    <script src="../../../js/rem.js"></script>
+
+    <script src="../../../../js/config.js"></script>
+    <script src="../../../../js/require-2.1.11.js" data-main="page"></script>
+</body>
+</html>

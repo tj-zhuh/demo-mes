@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>订单执行进度跟踪分析</title>
+    <link href="../../../../css/style2.css" rel="stylesheet" />
+    <!--<link href="../../../../css/zbcStyle.css" rel="stylesheet" />-->
+    <link href="../../../../lib/tb/tbcss.css" rel="stylesheet" />
+    <link href="page2.css" rel="stylesheet" />
+</head>
+<body>
+    <!--<h1>用户管理</h1>-->
+    <div class="container">
+        <div class="panel">
+            <div class="panel-title"><p>订单执行进度跟踪分析</p></div>
+            <div class="topbar">
+                <ul class="query-conditions">
+                    <li><label>总制令号</label><input /></li>
+                    <li><label>客户名称</label><input /></li>
+                    <li><label>发货情况</label><select id="select1"></select></li>
+                    <li><label>拖期情况</label><select id="select2"></select></li>
+                    <li><label>签订日期</label><input /></li>
+                    <li><label>结束日期</label><input /></li>
+                    <li><label>最少天数</label><input /></li>
+                    <li><label>最多天数</label><input /></li>
+                    <li><label>回款情况</label><select id="select3"></select></li>
+                </ul>
+                <ul class="query-buttons">
+                    <li><div class="btn">查询</div></li>
+                </ul>
+                <ul class="legend-ul">
+                    <li><div class="legend gray"></div><label>未开始</label></li>
+                    <li><div class="legend yellow"></div><label>进行中</label></li>
+                    <li><div class="legend red"></div><label>进行中[拖期]</label></li>
+                    <li><div class="legend green"></div><label>已完成</label></li>
+                </ul>
+            </div>
+
+            <div class="grid-container" id="grid1">
+
+            </div>
+
+            <!--注意现在还暂时不做翻页，预留位置-->
+            <div class="pagin"></div>
+        </div>
+    </div>
+
+    
+
+   
+    <script src="../../../../js/rem.js"></script>
+    <script src="../../../../js/config.js"></script>
+    <script src="../../../../js/require-2.1.11.js" data-main="page"></script>
+</body>
+</html>

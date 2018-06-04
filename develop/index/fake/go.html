@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style>
+        textarea {
+            height: 800px;
+            width: 400px;
+            font-family:SimSun;
+            font-size:18px;
+            line-height:25px;
+            padding-left:55px;
+            float:left;
+        }
+        #tran {
+            border:1px solid #ccc;
+            width:100px;
+            height:100px;
+            font-size:30px;
+            text-align:center;
+            line-height:100px;
+            float:left;
+            margin-left:50px;
+            margin-right:50px;
+            margin-top:350px;
+            cursor:pointer;
+        }
+    </style>
+    <script>
+        var menus = "";
+    </script>
+</head>
+<body>
+    <textarea id="t1">
+plan 生产计划
+  produce 生产管理
+    order 订单管理
+    manual 手工订单管理suspend
+    main 主计划维护suspend
+    machine 机加任务维护suspend
+    setup 装配任务维护suspend
+    all 生产计划汇总
+  aps APS排产管理
+    basic 基础数据管理suspend
+    task 排产任务管理suspend
+    calc 排产运算suspend
+    gantt 排产甘特图展示
+    material 物料需求计划
+    display 排产结果展示和调整suspend
+    exam 排产结果审批suspend
+    publish 排产结果发布suspend
+    track 排产结果跟踪suspend
+operation 生产作业
+  prepare 生产准备
+    material 物料齐套检查
+    blueprint 图纸工艺检查
+    plan 计划检查suspend
+    tool 工装检查suspend
+    device 设备班组检查suspend
+  schedule 生产调度
+    machine 机加任务派工suspend
+    setup 装配任务派工
+    manual 手工任务派工suspend
+progress 生产进度
+  receive 生产作业任务接收
+  time 生产报工
+  check 质检
+  complete 完工管理suspend
+  exception 例外转序suspend
+  cancel 冲销报工suspend
+  storage 产成品入库suspend
+  hour 车间工时统计
+external 外协管理
+  plan 外协计划编制suspend
+  report 外协生产状态上报suspend
+  track 外协计划跟踪查询
+  task 外协任务suspend
+  book 外协台账
+  material 外协带料加工suspend
+  storage 外协入库suspend
+qc 质量管理
+  basic 基础数据管理
+    item 检验项目管理suspend
+    standard 检验标准管理suspend
+    method 检验方法管理suspend
+  apply 质检申请管理suspend
+  check 质检审核管理
+  reject 不合格品管理
+    add 不合格品单生成suspend
+    manage 不合格品维护suspend
+    info 质控信息维护suspend
+    stat 业务员不合格统计表suspend
+    query 不合格品单查询
+    analyze 不合格品单分析suspend
+    rate 不合格率统计表suspend
+    clerk 业务员不合格品率suspend
+device 设备管理
+  basic 设备基本信息管理suspend
+  monitor 设备状态监控
+  record 设备运行记录与分析
+  exam 设备点检管理suspend
+  load 设备负荷管理
+stock 仓储物流
+  send 发料suspend
+  in 入库
+  out 出库suspend
+  inventory 库存suspend
+  get 领料suspend
+  allocate 调拨suspend
+  return 退库suspend
+  delivery 物料配送suspend
+  track 批次追踪suspend
+deliver 产品发运
+  transmit 发运指令下达
+  quality 发运指令质量审核suspend
+  finance 发运指令财务审核suspend
+  confirm 发运指令确认suspend
+  shortage 产成品缺件查询suspend
+stat 统计分析
+  produce 生产分析
+    capacity 企业产能分析suspend
+    improve 质量改进分析suspend
+    instock 产成品入库状态跟踪分析suspend
+    running 在制品状态跟踪分析suspend
+    external 外协任务执行进度跟踪分析suspend
+    order 订单执行进度跟踪分析
+    produce 生产统计分析suspend
+    person 人员报工统计分析
+    device 设备生产统计分析
+    energy 能源消耗统计分析
+  cost 成本分析
+    person 人员成本分析suspend
+    energy 能源成本分析suspend
+    material 原材料成本分析suspend
+    external 外协成本分析suspend
+    order 订单生产成本分析suspend
+    product 产品生产成本分析
+  stock 库存分析
+    shortage 产成品缺件分析suspend
+    stock 产成品库存统计分析suspend
+    goods 库存物资统计分析
+    price 采购物资价格分析suspend
+    trend 物资库存走势分析suspend
+    rate 物资资金占用分析
+    speed 物资周转速度分析suspend
+    warning 物资库存预警分析suspend
+    external 外协任务执行分析suspend
+    buy 采购任务执行分析suspend
+primary 主数据
+  organization 组织架构管理
+    company 企业主数据
+    factory 工厂主数据
+    department 车间主数据
+    workshop 工段主数据
+    shift 班组主数据
+    person 人员主数据
+    device 设备主数据
+  material 物料管理
+  technology 工艺管理
+    product 产品工艺路线信息suspend
+    level 产品工艺层级管理suspend
+    way 工艺路线管理
+    standard 工艺规程管理suspend
+    two 二维工艺图纸管理suspend
+    three 三维工艺图纸管理
+  bom BOM管理
+    sync BOM同步管理suspend
+    list BOM清单查询
+    history BOM历史版本管理suspend
+system 系统管理
+  user 人员管理
+  role 角色管理
+  menu 菜单管理
+  auth 权限管理
+  log 日志管理suspend
+  lang 语言管理
+    </textarea>
+    <div id="tran">=></div>
+    <textarea id="t2"></textarea>
+    <script>
+
+        var t = document.getElementsByTagName('textarea')[0];
+        var text = t.value;
+
+        var r = '';
+        r += text;
+        var index = r.indexOf('\n');
+
+        var safe = 0;
+        var ids = [];
+        var output = "";
+        var firstLine = true;
+
+        add("define(function () {");
+        add("    return [");
+
+
+        function add(str) {
+            output += str + "\n";
+        }
+
+        while (index >= 0) {
+            var line = r.substring(0, index);
+            r = r.substring(index + 1);
+            func(line);
+            index = r.indexOf('\n');
+
+            if (safe++ > 1000) throw new Error();
+        }
+
+
+
+        function func(line) {
+            var blanks = line.match(/^\s*/);
+            var num = blanks[0].length;
+            var level = num / 2 + 1;
+            line = line.replace(/^\s*/, '');
+            var folder = line.match(/^[^\s]*/)[0];
+            var name = line.match(/[^\s]*$/)[0].replace(/suspend/, '');
+            var suspend = !!(line.match(/suspend$/));
+            console.log(level, folder, name);
+
+
+            ids[level - 1] = (ids[level - 1] ? ids[level - 1] : 0) + 1;
+            ids.length = level;
+            var menuId = ids.join('-');
+            var parentId = level == 1 ? 'root' : ids.slice(0, ids.length - 1).join('-');
+
+            console.log(menuId);
+            console.log(parentId);
+
+            if (firstLine) {
+                add('        {');
+            } else {
+                add('        ,{');
+            }
+
+            add('            menuId: "' + menuId + '",');
+            add('            menuName: "' + name + '",');
+            add('            folder: "' + folder + '",');
+            add('            parentId: "' + parentId + '"' + (suspend ? ',' : ''));
+            if (suspend)
+                add('            suspend: "' + 1 + '"');
+            add('    }');
+
+            firstLine = false;
+        }
+
+
+        add("    ];");
+        add("})");
+
+        document.getElementById('t2').value = output;
+
+
+    </script>
+</body>
+</html>  

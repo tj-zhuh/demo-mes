@@ -1,0 +1,88 @@
+﻿
+
+/*表格容器*/
+
+
+.container .topbar{
+    height:1.3rem;
+}
+
+ul.bar-content{
+    margin-top:0.1rem;
+    height:0.18rem;
+}
+
+ul.bar-content li.withTwoTimeInput{width:5rem;}
+ul.bar-content li{margin-top:0.1rem;}
+ul.bar-content li input{width:1.6rem;}
+ul.bar-content li select{width:1.6rem;}
+
+.tb-edit{margin-left:39%;}
+.tb-delete{margin-left:10%;}
+
+.topbar ul li {
+    margin-top:0.1rem;
+}
+
+
+ul.ex-btn {
+    margin-left:0.75rem;
+}
+
+/*.legend{
+    width:0.2rem;
+    height:0.2rem;
+    margin-top:0.03rem;
+}
+
+ul.legend-ul{
+    clear:both;
+    margin-top:0.3rem;
+    margin-left:0.4rem;
+}
+
+ul.legend-ul li{
+    float:left;
+    /*margin-left:0.2rem;*/
+}
+
+ul.legend-ul li label {
+    font-size:0.15rem;
+}*/
+
+
+ul.bottom-right-ul li{
+    float:left;
+}
+
+ul.bottom-right-ul li input{
+    width:50px;
+}
+
+ul.bottom-right-ul li select{
+    width:50px;
+}
+
+.doQuery{
+    background-image:url(../../../../images/btn-query.png);
+}
+
+.doQuery:hover{    
+    background-image:url(../../../../images/btn-query-hover.png);
+}
+
+.doQuery:active{
+    background-image:url(../../../../images/btn-query-active.png);
+}
+
+/*.grid-container {
+    margin-top: 0.4rem;
+}*/
+
+.panel {
+    height: 6.9rem;
+}
+
+
+
+

@@ -1,0 +1,114 @@
+﻿
+* td{
+     /*padding-top:5px;
+     padding-bottom:5px;*/
+     font-size:14px;
+}
+
+/*表格容器*/
+.container .grid-container{
+    height:380px;
+}
+
+.container .topbar{
+    height:77px;
+}
+
+ul.bar-content{
+    margin-top:10px;
+    height:18px;
+}
+
+ul.bar-content li{
+    float:left;
+    width:190px;
+
+}
+
+ul.bar-content li.withTwoTimeInput{width:312px;}
+
+ul.bar-content li label{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+ul.bar-content li input{
+    width:100px;
+}
+
+ul.bar-content li select{
+    width:100px;
+    height:22px;
+}
+
+.tb-edit{margin-left:39%;}
+.tb-delete{margin-left:10%;}
+
+.container .pagin{
+    height:1px;
+}
+
+
+.redDiv{width:100%;height:100%;background-color:red;color:#fff;}
+.yellowDiv{width:100%;height:100%;background-color:yellow;color:#000;}
+.greenDiv{width:100%;height:100%;background-color:green;color:#fff;}
+.blueDiv{width:100%;height:100%;background-color:blue;color:#fff;}
+
+
+ul.ex-btn li{
+    float:left;
+    margin-top:5px;
+}
+
+ul.ex-btn li label{
+    line-height:34px;
+    float:left;
+}
+
+ul.ex-btn li select{
+    width:100px;
+    height:32px;
+    margin-left:300px;
+}
+
+.btn{
+    background-color:blue;
+    color:#fff;
+    text-align:center;
+    line-height:29px;
+    cursor:pointer;
+    width:150px;
+    height:32px;
+    margin-left:30px;
+}
+.btn:hover{background-color:green;}
+.btn:active{background-color:red;}
+
+#allSelect{
+    float:left;
+    cursor:pointer;
+    background:no-repeat;
+    width:32px;
+    height:32px;
+    background-image:url(../../../../images/icon-unchecked.png);
+    background-position:10% 64%;
+}
+
+#allSelect.active{
+     background-image:url(../../../../images/icon-checked.png);
+}
+
+
+.checkBox{
+    float:left;
+    cursor:pointer;
+    margin-left:43%;
+    background:no-repeat;
+    width:32px;
+    height:32px;
+    background-image:url(../../../../images/icon-unchecked.png);
+    background-position:10% 64%;
+}
+
+.checkBox.active{background-image:url(../../../../images/icon-checked.png);}
+

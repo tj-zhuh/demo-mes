@@ -1,0 +1,17 @@
+﻿
+#grid1{height:4.45rem;}
+
+.panel{height:7.5rem;}
+
+input{width:1.7rem;}
+select{width:1.75rem;}
+
+ul.bottom-conditions{margin-top:0.2rem;clear:left;height:0.4rem;margin-left:0.4rem;margin-top:0.2rem;}
+ul.bottom-conditions li{float:left;}
+ul.bottom-conditions label{margin-left:0.1rem;margin-right:0.1rem;}
+ul.bottom-conditions > li{margin-right:0.5rem;}
+
+.btn{
+
+}
+

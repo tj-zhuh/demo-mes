@@ -1,0 +1,50 @@
+﻿html{
+    margin-right:10px;
+}
+* td{
+  color: #757575;
+  border-bottom:solid 1px #ccc;
+  text-align: center;
+  line-height:0.4rem;
+  height:0.4rem;
+  border-right: 1px solid #ccc;
+  /*border-bottom: 1px #ccc solid;*/ 
+  font-family:'Microsoft YaHei';
+}
+* th{
+  color: #484848;
+  min-width:1rem;
+  background-color: #fafafa;
+  border-top:solid 1px #ccc;
+  border-right: 1px solid #ccc;
+  line-height:0.4rem;
+  height:0.4rem;
+  border-bottom: 1px #ccc solid;
+  cursor: context-menu;
+  font-family:'Microsoft YaHei';
+}
+.container{
+    min-width:1270px;
+}
+
+.panel{
+    height:11rem;
+}
+
+/*表格容器*/
+.container .grid-container{
+    height:9rem;
+    margin-left:0.25rem;
+    margin-right:0.2rem;
+    background-color:#fff;
+    overflow:auto;
+    clear:both;
+}
+
+
+
+
+
+
+
+
