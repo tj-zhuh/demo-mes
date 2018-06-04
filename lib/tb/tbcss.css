@@ -1,0 +1,59 @@
+* table {
+  border-collapse: collapse; 
+  border-left:1px solid #436382;
+  border-top:1px solid #436382;
+  border-bottom:1px solid #436382;
+}
+
+* tr {
+  cursor: pointer; 
+
+}
+
+th.tj-grid-th {
+  color: #fff;
+  /*min-width:1rem;*/
+  background-color: #0F1E36;
+  /*border-top:solid 1px #ccc;*/
+  border-right: 1px solid #436382;
+  line-height:0.4rem;
+  height:0.4rem;
+  font-size:0.15rem;
+  border-bottom: 1px #436382 solid;
+  cursor: context-menu;
+  font-family:'Microsoft YaHei';
+}
+
+td.tj-grid-td {
+  color: #fff;
+  font-size:0.15rem;
+  text-align: center;
+  line-height:0.4rem;
+  height:0.4rem;
+  border-right: 1px solid #436382;
+  /*border-bottom: 1px #ccc solid;*/ 
+  font-family:'Microsoft YaHei';
+
+}
+
+/*style of odd td line*/
+tr.odd:hover {
+  background: #224f75; }
+
+/*style of even td line*/
+tr.even {
+  background-color: #1B2F4F;
+
+}
+
+tr.even:hover {
+  background-color: #224f75; 
+
+}
+
+/*tr.tjTb-grid-onSelect {
+  background-color: #e4f8f4; 
+
+}*/
+
+/*# sourceMappingURL=tbcss.css.map */

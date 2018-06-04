@@ -1,0 +1,180 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-size:0.18rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+select, input {
+    outline: 0;
+}
+
+.container {
+    min-width: 1280px;
+}
+/**********************************************************以上是全局**********************************************************************/
+/*针对tb.js的th、td样式*/
+* th{
+     font-size:0.16rem;
+     min-width:1.5rem;
+}
+
+* td{
+     font-size:0.14rem;
+     min-width:1.5rem;
+     padding-top:0.1rem;
+     padding-bottom:0.1rem;
+}
+
+.container .topbar{
+    width:96%;
+    margin-left:0.1rem;
+    margin-right:0.1rem;
+    margin-top:0.3rem;
+}
+
+/*topbar li样式*/
+ul.bar-content{
+    margin-left:0.4rem;
+}
+
+ul.bar-content li{
+    float:left;
+    margin-right:0.5rem;
+}
+
+/*topbar 里面有两段input时间的样式*/
+ul.bar-content li.withTwoTimeInput{width:4.6rem;}
+
+ul.bar-content li label{
+    margin-left:0.1rem;
+    margin-right:0.1rem;
+}
+
+ul.bar-content li input{
+    width:2rem;
+    height:0.3rem;
+}
+
+ul.bar-content li select{
+    width:2rem;
+    height:0.35rem;
+}
+
+/*单一表格容器*/
+.container .grid-container{
+    width:98%;
+    margin-left:0.1rem;
+    margin-right:0.1rem;
+    border:solid 1px #ccc;
+}
+
+/*图表容器*/
+.container .chart-container{
+    width:96%;
+    margin-left:0.1rem;
+    margin-right:0.1rem;
+    border:solid 1px #ccc;
+}
+
+.legend{
+    float:left;
+    width:0.8rem;
+    height:0.3rem;
+    margin-right:0.1rem;
+    text-align:center;
+}
+
+.gray{background-color:gray;}
+.yellow{background-color:yellow;}
+.red{background-color:red;}
+.green{background-color:green;}
+.purple{background-color:purple;}
+
+/*renderer样式*/
+.redDiv{width:20%;height:60%;margin-left:40%;background-color:red;color:#fff;}
+.yellowDiv{width:20%;height:60%;margin-left:40%;background-color:yellow;color:#000;}
+.greenDiv{width:20%;height:60%;margin-left:40%;background-color:green;color:#fff;}
+.blueDiv{width:20%;height:60%;margin-left:40%;background-color:blue;color:#fff;}
+.grayDiv{width:20%;height:60%;margin-left:40%;background-color:gray;color:#fff;}
+.purpleDiv{width:20%;height:60%;margin-left:40%;background-color:purple;color:#fff;}
+
+/*行内按键*/
+/*行内按键*/
+.tb-edit{
+    background:no-repeat;
+    width:28px;
+    float:left;
+    height:28px;
+    border:none;
+    background-image:url(../../../images/btn-edit.png);
+    margin-left:39%;
+}
+.tb-edit:hover{background-image:url(../../../images/btn-edit-hover.png)}
+.tb-edit:active{background-image:url(../../../images/btn-edit-active.png)}
+
+.tb-delete{   
+    background:no-repeat;
+    width:28px;
+    float:left;
+    margin-left:10%;
+    border:none;
+    height:28px;
+    background-image:url(../../../images/btn-delete.png)}
+.tb-delete:hover{background-image:url(../../../images/btn-delete-hover.png)}
+.tb-delete:active{background-image:url(../../../images/btn-delete-active.png)}
+
+
+.doQuery{
+    width:0.8rem;
+    height:0.5rem;
+    margin-top:-0.03rem;
+    cursor:pointer;
+    background:no-repeat;
+}
+
+
+
+
+.btn{
+    background-color:#00B999;
+    border-radius:0.05rem;
+    color:#fff;
+    font-size:0.16rem;
+    padding:0.06rem 0.16rem;
+    cursor:pointer;
+    margin-top:-0.1rem;
+    border:solid 1px #389edc;
+}
+
+.btn:hover{
+    background-color:#00C8A5;
+}
+
+.btn:active{
+    background-color:#00AA8D;
+}
+
+
+ul.bar-content li label.lang4{
+
+}
+
+ul.bar-content li label.lang3{
+
+}
+
+ul.bar-content li label.lang2{
+    margin-right:0.465rem;
+}
+
+ul.bar-content li label.lang1{
+
+}

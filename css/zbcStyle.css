@@ -1,0 +1,148 @@
+﻿/** {
+    margin: 0;
+    padding: 0;
+}*/
+/** div{border:solid 1px #ccc;}*/
+* th{
+    font-size:13px;
+}
+
+* td{
+    font-size:12px;
+}
+
+* ul{list-style:none;}
+
+/*主容器*/
+.container{
+    margin-left:1px;
+    margin-right:10px;
+    height:600px;
+    width:100%;
+    border:none;
+}
+
+/*上方工具栏*/
+.container .topbar{
+    height:60px;
+    width:100%;
+    border:none;
+}
+
+/*表格容器*/
+.container .grid-container{
+    height:500px;
+    width:100%;
+    border:1px solid #ccc;
+
+}
+
+/*翻页预留位置*/
+.container .pagin{
+    height:40px;
+    width:100%;
+}
+
+
+/*行内按键*/
+.tb-edit{
+    background:no-repeat;
+    width:28px;
+    float:left;
+    height:28px;
+    border:none;
+    background-image:url(../../../images/btn-edit.png)
+
+}
+.tb-edit:hover{background-image:url(../../../images/btn-edit-hover.png)}
+.tb-edit:active{background-image:url(../../../images/btn-edit-active.png)}
+
+.tb-delete{   
+    background:no-repeat;
+    width:28px;
+    float:left;
+
+    border:none;
+    height:28px;
+    background-image:url(../../../images/btn-delete.png)}
+.tb-delete:hover{background-image:url(../../../images/btn-delete-hover.png)}
+.tb-delete:active{background-image:url(../../../images/btn-delete-active.png)}
+
+
+
+/*图表容器*/
+.container .chart-container{
+    height:500px;
+    width:100%;
+    border:1px solid #ccc;
+
+}
+
+.doQuery{
+    width:50px;
+    height:32px;
+    margin-top:-3px;
+    cursor:pointer;
+    background:no-repeat;
+    background-image:url(../../../../images/btn-query.png);
+}
+
+.doQuery:hover{    
+    background-image:url(../../../../images/btn-query-hover.png);
+}
+
+.doQuery:active{
+    background-image:url(../../../../images/btn-query-active.png);
+}
+
+
+.btn{
+    background-color:#00B999;
+    border-radius:3px;
+    color:#fff;
+    font-size:14px;
+    padding:5px 10px;
+    cursor:pointer;
+    margin-top:-2px;
+    border:solid 1px #389edc;
+}
+
+.btn:hover{
+    background-color:#00C8A5;
+}
+
+.btn:active{
+    background-color:#00AA8D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*模态薄膜*/
+/*.membrane{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background-color:#111;
+    opacity:0.6;
+    top:0
+}*/
+
+/*窗口*/
+.window{display:none;}
+
+
